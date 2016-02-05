@@ -1,0 +1,47 @@
+{
+  "title": "maelstrom-icons",
+  "name": "maelstrom-icons",
+  "version": "0.1.0",
+  "homepage": "https://github.com/roeldev/maelstrom-icons",
+  "description": "Sass related gulp tasks for maelstrom",
+  "author": "Roel Schut (http://roelschut.nl)",
+  "license": "GPL-2.0+",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roeldev/maelstrom-icons.git"
+  },
+  "bugs": "https://github.com/roeldev/maelstrom-icons/issues",
+  "engines": {
+    "node": ">=4.2"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "start": "npm run setup && gulp watch",
+    "test": "mocha --reporter spec --check-leaks --globals store@sparkles",
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks --globals store@sparkles"
+  },
+  "dependencies": {
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^5.0.1",
+    "gulp-rename": "^1.2.2",
+    "lodash": "^4.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3",
+    "istanbul": "^0.4.2",
+    "log-interceptor": "^1.0.0",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "1.0.0"
+  },
+  "keywords": [
+    "gulpfriendly",
+    "gulp",
+    "maelstrom",
+    "icons"
+  ]
+}
