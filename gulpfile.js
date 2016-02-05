@@ -1,5 +1,5 @@
 /**
- * maelstrom-sass | gulpfile.js
+ * maelstrom-icons | gulpfile.js
  */
 'use strict';
 

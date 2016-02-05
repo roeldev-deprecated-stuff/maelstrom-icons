@@ -3,7 +3,7 @@
   "name": "maelstrom-icons",
   "version": "0.1.0",
   "homepage": "https://github.com/roeldev/maelstrom-icons",
-  "description": "Sass related gulp tasks for maelstrom",
+  "description": "Icons related gulp tasks for maelstrom",
   "author": "Roel Schut (http://roelschut.nl)",
   "license": "GPL-2.0+",
   "main": "lib/index.js",
