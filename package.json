@@ -27,8 +27,7 @@
     "gulp-consolidate": "^0.1.2",
     "gulp-iconfont": "^5.0.1",
     "gulp-rename": "^1.2.2",
-    "lodash": "^4.0.0",
-    "underscore": "^1.8.3"
+    "lodash": "^4.5.1"
   },
   "devDependencies": {
     "coveralls": "^2.11.4",
