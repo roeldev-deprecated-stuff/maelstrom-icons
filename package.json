@@ -1,7 +1,7 @@
 {
   "title": "maelstrom-icons",
   "name": "maelstrom-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/roeldev/maelstrom-icons",
   "description": "Icons related gulp tasks for maelstrom",
   "author": "Roel Schut (http://roelschut.nl)",
